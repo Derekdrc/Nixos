@@ -118,6 +118,7 @@
     librewolf
     via
     mangohud
+    gimp3
   ];
   
   #enable git
