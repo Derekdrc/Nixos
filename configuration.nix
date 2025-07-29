@@ -130,13 +130,13 @@
   #enable udev for via 
   services.udev.packages = [ pkgs.via ];
   
-  # enable sunshine
-  services.sunshine = {
-    enable = true;
-    autoStart = true;
-    capSysAdmin = true;
-    openFirewall = true;
-  };
+  # enable sunshine - disable sunshine
+#  services.sunshine = {
+#    enable = true;
+#    autoStart = true;
+#    capSysAdmin = true;
+#    openFirewall = true;
+#  };
 
   # Install steam w options
   programs.steam.enable=true;
