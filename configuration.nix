@@ -119,6 +119,7 @@
     via
     mangohud
     gimp3
+    bitwarden-desktop
   ];
   
   #enable git
