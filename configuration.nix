@@ -17,9 +17,9 @@
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-  #enable wake on lan maybe?
-  networking.interfaces.wlp15s0.wakeOnLan.enable = true;
-  networking.interfaces.wlp15s0.wakeOnLan.policy =[ "magic" ];
+  #enable wake on lan maybe? - disable
+#  networking.interfaces.wlp15s0.wakeOnLan.enable = true;
+#  networking.interfaces.wlp15s0.wakeOnLan.policy =[ "magic" ];
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
