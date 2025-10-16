@@ -121,6 +121,7 @@
     mangohud
     gimp3
     bitwarden-desktop
+    vscode
   ];
   
   #enable git
