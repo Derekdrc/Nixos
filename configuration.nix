@@ -122,6 +122,7 @@
     gimp3
     bitwarden-desktop
     vscode
+    prismlauncher
   ];
   
   #enable git
