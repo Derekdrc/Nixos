@@ -27,6 +27,11 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+  networking.firewall = {
+#    enable = false;
+    allowedTCPPorts = [25565];
+    allowedUDPPorts = [25565];
+  };
 
   # Set your time zone.
   time.timeZone = "America/Detroit";
