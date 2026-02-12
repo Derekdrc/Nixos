@@ -128,6 +128,7 @@
     bitwarden-desktop
     vscode
     prismlauncher
+    hplip
   ];
   
   #enable git
