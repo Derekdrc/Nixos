@@ -28,7 +28,7 @@
   # Enable networking
   networking.networkmanager.enable = true;
   networking.firewall = {
-#    enable = false;
+  #  enable = false;
     allowedTCPPorts = [25565];
     allowedUDPPorts = [25565];
   };
@@ -128,7 +128,7 @@
     bitwarden-desktop
     vscode
     prismlauncher
-    hplip
+#    hplip #comment out hplip bc cant print so 
   ];
   
   #enable git
