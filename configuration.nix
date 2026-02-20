@@ -108,7 +108,7 @@
   systemd.services."autovt@tty1".enable = false;
 
   # Install firefox false, easiest way to download gnome ext is through ff tho 
-  programs.firefox.enable = false;
+  programs.firefox.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
